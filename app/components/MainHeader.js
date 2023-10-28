@@ -12,7 +12,7 @@ export default function MainHeader() {
       <div className="justify-between px-4 mx-auto lg:h-24 lg:items-center lg:flex lg:justify-start lg:gap-[10%] xl:gap-[13%] lg:px-8">
         <div>
           <div className="flex items-center justify-between py-3 lg:block">
-            <a href="javascript:void(0)">
+            <a href="#">
               <img
                 src="/bellx-logo.svg"
                 alt="BellX Logo"

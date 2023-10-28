@@ -48,7 +48,7 @@ export default function CardSlider() {
   return (
     <Slider {...settings}>
       <div className="w-80 shadow-md px-4 pt-8 border border-red-200 rounded-md m-4">
-        <Image src="/digital.svg" width={55} height={34} className="mb-4" />
+        <Image src="/digital.svg" width={55} height={34} className="mb-4" alt="SEO" />
         <h3 className="text-xl mb-4 font-medium">Digital Marketing, SEO</h3>
         <p className="text-[#2D3748] mb-12">
           We help you to increased online visibility, improved search-engine
@@ -57,7 +57,7 @@ export default function CardSlider() {
         </p>
       </div>
       <div className="w-80 shadow-md px-4 pt-8 border border-red-200 rounded-md m-4">
-        <Image src="/web.svg" width={55} height={34} className="mb-4" />
+        <Image src="/web.svg" width={55} height={34} className="mb-4" alt="Web" />
         <h3 className="text-xl mb-4 font-medium">Web Design & Development</h3>
         <p className="text-[#2D3748] mb-12">
           A Website is an extension of yourself and we can help you to express
@@ -66,7 +66,7 @@ export default function CardSlider() {
         </p>
       </div>
       <div className="w-80 shadow-md px-4 pt-8 border border-red-200 rounded-md m-4">
-        <Image src="/mobile.svg" width={55} height={34} className="mb-4" />
+        <Image src="/mobile.svg" width={55} height={34} className="mb-4" alt="Mobile" />
         <h3 className="text-xl mb-4 font-medium">
           Mobile App Development and API Integration
         </h3>
@@ -77,7 +77,7 @@ export default function CardSlider() {
         </p>
       </div>
       <div className="w-80 shadow-md px-4 pt-8 border border-red-200 rounded-md m-4">
-        <Image src="/graphics.svg" width={55} height={34} className="mb-4" />
+        <Image src="/graphics.svg" width={55} height={34} className="mb-4" alt="Graphics" />
         <h3 className="text-xl mb-4 font-medium">
           Graphics Design, UI/UX Design, Digital Marketing , SEO
         </h3>
@@ -87,7 +87,7 @@ export default function CardSlider() {
         </p>
       </div>
       <div className="w-80 shadow-md px-4 pt-8 border border-red-200 rounded-md m-4">
-        <Image src="/code-icon.svg" width={55} height={34} className="mb-4" />
+        <Image src="/code-icon.svg" width={55} height={34} className="mb-4" alt="Testing" />
         <h3 className="text-xl mb-4 font-medium">Software testing</h3>
         <p className="text-[#2D3748] mb-12">
           We perform thorough testing, including functional, regression, and
