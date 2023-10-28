@@ -37,10 +37,10 @@ export default function Home() {
             target="_blank"
             className="text-white bg-[#3D63EA] px-7 py-5 rounded-md"
           >
-            Let's get started!
+            Let&apos;s get started!
           </a>
         </div>
-        <img src="/image1.svg" className="w-[48%] hidden md:block" />
+        <Image alt="alts" src="/image1.svg" className="w-[48%] hidden md:block" />
       </div>
       
       <div id="services" className="flex flex-col my-16 items-center">
@@ -64,7 +64,7 @@ export default function Home() {
             <span className="bg-gradient-to-r from-[#DE4396] to-[#0d1c9f] bg-clip-text text-transparent">
               add development capacity
             </span>{" "}
-            to tech teams. Our value isn't limited to building teams but is
+            to tech teams. Our value isn&apos;t limited to building teams but is
             equally distributed across the project lifecycle. We are a custom
             software development company that guarantees the successful delivery
             of your project.
@@ -73,7 +73,7 @@ export default function Home() {
             See more informations <GoArrowRight className="inline" />
           </a>
         </div>
-        <img src="/about.svg" className="w-2/5 hidden md:block" />
+        <Image alt="alts" src="/about.svg" className="w-2/5 hidden md:block" />
       </div>
 
       {/* <div className="flex flex-col my-16">
@@ -100,7 +100,7 @@ export default function Home() {
         id="projects"
         className="flex  items-center bg-[#F1F2FF] justify-between  pr-16 mb-8 rounded-3xl border-2"
       >
-        <img src="/ecommerce.svg" className="w-[49%] hidden lg:block" />
+        <Image alt="alts" src="/ecommerce.svg" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
           <h3 className="text-2xl mb-8 font-medium">
             E commerce Website for Tech store
@@ -122,7 +122,7 @@ export default function Home() {
       </div>
 
       <div className="flex  items-center bg-[#F0FFF7] justify-between  pr-16 mb-8 rounded-3xl border-2">
-        <img src="/gym.svg" className="w-[49%] hidden lg:block" />
+        <Image alt="alts" src="/gym.svg" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
           <h3 className="text-2xl mb-8 font-medium">Website for GYM center</h3>
           <p className="text-[#898CA9] mb-12">
@@ -141,7 +141,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex  items-center bg-[#FFF4F4] justify-between  pr-16 mb-8 rounded-3xl border-2">
-        <img src="/car.svg" className="w-[49%] hidden lg:block" />
+        <Image alt="alts" src="/car.svg" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
           <h3 className="text-2xl mb-8 font-medium">Website for Car Rental</h3>
           <p className="text-[#898CA9] mb-12">
@@ -179,7 +179,7 @@ export default function Home() {
             innovative and efficient software solutions
           </p>
         </div>
-        <img src="/image2.svg" className="w-2/5 hidden md:block" />
+        <Image alt="alts" src="/image2.svg" className="w-2/5 hidden md:block" />
       </div>
 
       <div className="flex justify-around items-center mb-20">
@@ -193,11 +193,11 @@ export default function Home() {
             error-free software product that they can rely on.
           </p>
         </div>
-        <img src="/image4.svg" className="w-2/5 hidden md:block" />
+        <Image alt="alts" src="/image4.svg" className="w-2/5 hidden md:block" />
       </div>
 
       <div className="flex justify-around items-center mb-20">
-        <img src="/image3.svg" className="w-2/5 hidden md:block" />
+        <Image alt="alts" src="/image3.svg" className="w-2/5 hidden md:block" />
         <div className="w-full md:w-2/5">
           <h3 className="text-2xl mb-8 font-medium">Timely Delivery</h3>
           <p className="text-[#2D3748] mb-12">
@@ -212,7 +212,7 @@ export default function Home() {
 
       <div id="who-we-are" className="flex flex-wrap justify-between">
         <div className="w-full lg:w-[49%] my-3 px-4 py-8 flex gap-6 items-start border-[1px] border-[#E7DAED] rounded-sm shadow-md">
-          <img src="/rocket.svg" />
+          <Image alt="alts" src="/rocket.svg" />
           <div>
             <p className="font-semibold mb-3">UX Driven Engineering</p>
             <p className="text-[#4A5568]">
@@ -224,7 +224,7 @@ export default function Home() {
         </div>
 
         <div className="w-full lg:w-[49%] my-3 px-4 py-8 flex gap-6 items-start border-[1px] border-[#E7DAED] rounded-sm shadow-md">
-          <img src="/developing.svg" />
+          <Image alt="alts" src="/developing.svg" />
           <div>
             <p className="font-semibold mb-3">
               Developing Shared Understanding
@@ -237,7 +237,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full lg:w-[49%] my-3 px-4 py-8 flex gap-6 items-start border-[1px] border-[#E7DAED] rounded-sm shadow-md">
-          <img src="/proven.svg" />
+          <Image alt="alts" src="/proven.svg" />
           <div>
             <p className="font-semibold mb-3">
               Proven Experience and Expertise
@@ -251,7 +251,7 @@ export default function Home() {
         </div>
 
         <div className="w-full lg:w-[49%] my-3 px-4 py-8 flex gap-6 items-start border-[1px] border-[#E7DAED] rounded-sm shadow-md">
-          <img src="/security.svg" />
+          <Image alt="alts" src="/security.svg" />
           <div>
             <p className="font-semibold mb-3">
               Security & Intellectual Property(IP)
@@ -264,7 +264,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full lg:w-[49%] my-3 px-4 py-8 flex gap-6 items-start border-[1px] border-[#E7DAED] rounded-sm shadow-md">
-          <img src="/code-review.svg" />
+          <Image alt="alts" src="/code-review.svg" />
           <div>
             <p className="font-semibold mb-3">Code Reviews</p>
             <p className="text-[#4A5568]">
@@ -275,7 +275,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full lg:w-[49%] my-3 px-4 py-8 flex gap-6 items-start border-[1px] border-[#E7DAED] rounded-sm shadow-md">
-          <img src="/quality.svg" />
+          <Image alt="alts" src="/quality.svg" />
           <div>
             <p className="font-semibold mb-3">Quality Assurance & Testing</p>
             <p className="text-[#4A5568]">
