@@ -13,7 +13,7 @@ export default function MainHeader() {
         <div>
           <div className="flex items-center justify-between py-3 lg:block">
             <a href="javascript:void(0)">
-              <Image
+              <img
                 src="/bellx-logo.svg"
                 alt="BellX Logo"
                 className="min-w-[100px] w-[100px] h-[100px]"

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import {
   FaFacebookF,
@@ -15,7 +14,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row gap-8 xl:justify-around">
           {/* Column 1 */}
           <div>
-            <Image src="/bellx-logo.svg" alt="Company Logo" className="w-24" />
+            <img src="/bellx-logo.svg" alt="Company Logo" className="w-24" />
             <p className="text-lg mb-3">BellX Software Solutions</p>
             <p className="text-sm">
               Your Agile Tech Partner That Helps You Accelerate Growth

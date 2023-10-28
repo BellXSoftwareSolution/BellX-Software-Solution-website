@@ -1,6 +1,6 @@
-const FeedbackCard = ({ content, name, title, Image }) => (
+const FeedbackCard = ({ content, name, title, img }) => (
   <div className="flex justify-between  flex-col  px-10 py-12 rounded-[20px]  max-w-[370px]  mx-auto my-0 feedback-card">
-    <Image
+    <img
       src="/semicolon-open.svg"
       alt="double_quotes"
       className="w-[42.6px] h-[27.6px] object-contain"
@@ -9,14 +9,14 @@ const FeedbackCard = ({ content, name, title, Image }) => (
       {content}
     </p>
 
-    <Image
+    <img
       src="/semicolon-close.svg"
       alt="double_quotes"
       className="w-[42.6px] h-[27.6px] object-contain mr-0 ml-[98%]"
     />
 
     <div className="flex flex-row">
-      <Image src={Image} alt={name} className=" rounded-full" />
+      <img src={img} alt={name} className=" rounded-full" />
       <div className="flex flex-col ml-4">
         <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
           {name}
