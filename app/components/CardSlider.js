@@ -142,42 +142,42 @@ export function ClientSlider() {
         <img
           src="/people.svg"
           className="w-full h-20"
-          alt="client company logo"
+          alt="client company logo 1"
         />
       </div>
       <div>
         <img
           src="/people.svg"
           className="w-full h-20"
-          alt="client company logo"
+          alt="client company logo 2"
         />
       </div>
       <div>
         <img
           src="/people.svg"
           className="w-full h-20"
-          alt="client company logo"
+          alt="client company logo 3"
         />
       </div>
       <div>
         <img
           src="/people.svg"
           className="w-full h-20"
-          alt="client company logo"
+          alt="client company logo 4"
         />
       </div>
       <div>
         <img
           src="/people.svg"
           className="w-full h-20"
-          alt="client company logo"
+          alt="client company logo 5"
         />
       </div>
       <div>
         <img
           src="/people.svg"
           className="w-full h-20"
-          alt="client company logo"
+          alt="client company logo 6"
         />
       </div>
     </Slider>
@@ -258,8 +258,8 @@ export function Testimonials() {
 
   return (
     <Slider {...settings}>
-      {feedback.map((card) => (
-        <FeedbackCard {...card} />
+      {feedback.map((index, card) => (
+        <FeedbackCard {...card} key={index}/>
       ))}
     </Slider>
   );
