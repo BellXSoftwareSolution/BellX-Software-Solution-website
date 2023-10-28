@@ -37,7 +37,7 @@ export default function Home() {
             target="_blank"
             className="text-white bg-[#3D63EA] px-7 py-5 rounded-md"
           >
-            Let's get started!
+            Let&apos;s get started!
           </a>
         </div>
         <img src="/image1.svg" className="w-[48%] hidden md:block" />
@@ -64,7 +64,7 @@ export default function Home() {
             <span className="bg-gradient-to-r from-[#DE4396] to-[#0d1c9f] bg-clip-text text-transparent">
               add development capacity
             </span>{" "}
-            to tech teams. Our value isn't limited to building teams but is
+            to tech teams. Our value isn&apos;t limited to building teams but is
             equally distributed across the project lifecycle. We are a custom
             software development company that guarantees the successful delivery
             of your project.
@@ -73,7 +73,7 @@ export default function Home() {
             See more informations <GoArrowRight className="inline" />
           </a>
         </div>
-        <img src="/about.svg" className="w-2/5 hidden md:block" />
+        <img src="/about.svg" className="w-2/5 hidden md:block"/>
       </div>
 
       {/* <div className="flex flex-col my-16">
