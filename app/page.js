@@ -1,5 +1,9 @@
+"use client";
+
 import { GoArrowRight } from "react-icons/go";
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { LiaAngleRightSolid } from "react-icons/lia";
+import "swiper/css";
 import CardSlider, {
   ClientSlider,
   Testimonials,
@@ -8,7 +12,9 @@ import Image from "next/image";
 import Technologies from "./components/Technologies";
 import Process from "./components/Process";
 
+
 export default function Home() {
+  
   return (
     <div className="w-full mx-auto px-4">
       <div className="flex  justify-between items-center mb-20">
@@ -21,6 +27,7 @@ export default function Home() {
             </span>{" "}
             through
           </h1>
+          
           <h1 className="text-3xl font-bold lg:text-5xl mb-8">
             custom{" "}
             <span className="bg-gradient-to-r from-[#DE4396] to-[#0d1c9f] bg-clip-text text-transparent">
@@ -91,7 +98,9 @@ export default function Home() {
         <p className="text-2xl font-semibold">we are working with</p>
       </div>
       <ClientSlider /> */}
-
+      <div className="w-full my-20">
+      
+    </div>
       <div className="flex flex-col items-center my-16">
         <hr className="bg-pink-500 h-1 w-16 my-6" />
         <p className="text-2xl">Why customers love</p>
@@ -128,8 +137,9 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </div>
-
+            </div>
+            
+    
       <div className="flex  items-center bg-[#F0FFF7] justify-between  pr-16 mb-8 rounded-3xl border-2">
         <img src="/gym.svg" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">

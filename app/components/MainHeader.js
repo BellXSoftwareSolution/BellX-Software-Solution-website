@@ -8,7 +8,7 @@ export default function MainHeader() {
   const [isOpen, setisOpen] = useState(false);
 
   return (
-    <nav className="w-full pb-4 lg:py-0 animate-pulldown">
+    <nav className="w-full sm:pb-4 lg:p-0 animate-pulldown sticky top-0 bg-white z-50">
       <div className="justify-between px-4 mx-auto lg:h-24 lg:items-center lg:flex lg:justify-between lg:gap-[10%] lg:px-8">
         <div>
           <div className="flex items-center justify-between py-3 lg:block">
