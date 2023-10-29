@@ -8,8 +8,8 @@ export default function MainHeader() {
   const [isOpen, setisOpen] = useState(false);
 
   return (
-    <nav className="w-full shadow pb-4 lg:py-0">
-      <div className="justify-between px-4 mx-auto lg:h-24 lg:items-center lg:flex lg:justify-start lg:gap-[10%] xl:gap-[13%] lg:px-8">
+    <nav className="w-full pb-4 lg:py-0 animate-pulldown">
+      <div className="justify-between px-4 mx-auto lg:h-24 lg:items-center lg:flex lg:justify-between lg:gap-[10%] lg:px-8">
         <div>
           <div className="flex items-center justify-between py-3 lg:block">
             <a href="javascript:void(0)">
@@ -66,11 +66,11 @@ export default function MainHeader() {
             <div className="flex flex-col items-center justify-center space-y-8 lg:flex lg:items-center lg:space-y-0">
               <div className="flex flex-col gap-10 lg:flex lg:flex-row lg:gap-24 xl:gap-48">
                 <div
-                  className={`flex lg:flex lg:flex-row xl:gap-12 gap-4 ${
+                  className={`flex lg:flex lg:flex-row xl:gap-6 gap-4 ${
                     isOpen ? "flex-col" : "hidden"
                   }`}
                 >
-                  <div className="min-w-[70px]">
+                  <div className="">
                     <a
                       href="#who-we-are"
                       className="text-[#4A5568] font-medium hover:text-opacity-70 no-underline"
@@ -78,7 +78,7 @@ export default function MainHeader() {
                       About us
                     </a>
                   </div>
-                  <div className="min-w-[70px]">
+                  <div className="">
                     <a
                       href="#services"
                       className="text-[#4A5568] font-medium hover:text-opacity-70 no-underline"
@@ -86,7 +86,7 @@ export default function MainHeader() {
                       Services
                     </a>
                   </div>
-                  <div className="min-w-[125px]">
+                  <div className="">
                     <a
                       href="#projects"
                       className="text-[#4A5568] font-medium hover:text-opacity-70 no-underline"
@@ -94,7 +94,7 @@ export default function MainHeader() {
                       Project Portfolio
                     </a>
                   </div>
-                  <div className="min-w-[50px]">
+                  <div className="">
                     <a
                       href="https://medium.com/@bellxsoftwaresolution"
                       className="text-[#4A5568] font-medium hover:text-opacity-70 no-underline"
@@ -102,7 +102,7 @@ export default function MainHeader() {
                       Blog
                     </a>
                   </div>
-                  <div className="min-w-[105px]">
+                  <div className="">
                     <a
                       href="#"
                       className="text-[#4A5568] font-medium hover:text-opacity-70 no-underline"
@@ -110,7 +110,7 @@ export default function MainHeader() {
                       How It Works
                     </a>
                   </div>
-                  <div className="min-w-[100px]">
+                  <div className="">
                     <a
                       href="#"
                       className="text-[#4A5568] font-medium hover:text-opacity-70 no-underline"

@@ -10,9 +10,10 @@ import Process from "./components/Process";
 
 export default function Home() {
   return (
-    <div className="w-[95%] mx-auto py-16">
+    <div className="w-full mx-auto px-4">
       <div className="flex  justify-between items-center mb-20">
         <div className="w-full md:w-[48%]">
+          <div className="w-full animate-appearup">
           <h1 className="text-2xl lg:text-4xl">
             Empowering{" "}
             <span className="font-semibold bg-gradient-to-r from-[#F7666F] to-[#406AFF] bg-clip-text text-transparent">
@@ -32,15 +33,23 @@ export default function Home() {
             product strategy, through to product engineering, testing and
             continuous scaling.
           </p>
+          </div>
+
+          <div className="w-full py-5 animate-moveleft">
           <a
             href="mailto:bellxsoftwaresolution@gmail.com?subject=Seeking%20partnership"
             target="_blank"
-            className="text-white bg-[#3D63EA] px-7 py-5 rounded-md"
+            className="text-white bg-[#3D63EA] px-7 py-5 rounded-md animate-moveleft w-full"
           >
             Let&apos;s get started!
           </a>
+          </div>
+
         </div>
-        <img src="/image1.svg" className="w-[48%] hidden md:block" />
+        <div className="w-[48%] animate-appearup ">
+        <img src="/image1.svg" className="w-full hidden md:block animate-grow" />
+          </div>
+       
       </div>
       
       <div id="services" className="flex flex-col my-16 items-center">
