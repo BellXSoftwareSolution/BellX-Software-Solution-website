@@ -20,7 +20,10 @@ export default function Home() {
       <div className="flex  justify-between items-center mb-20">
         <div className="w-full md:w-[48%]">
           <div className="w-full animate-appearup">
-          <h1 className="text-2xl lg:text-4xl">
+          <div>
+
+          </div>
+          <h1 className="text-xl lg:text-4xl flex gap-x-2 lg:block">
             Empowering{" "}
             <span className="font-semibold bg-gradient-to-r from-[#F7666F] to-[#406AFF] bg-clip-text text-transparent">
               Business
@@ -116,7 +119,7 @@ export default function Home() {
 
       <div
         id="projects"
-        className="flex  items-center bg-[#F1F2FF] justify-between  pr-16 mb-8 rounded-3xl border-2"
+        className="flex  items-center bg-[#F1F2FF] justify-between  lg:pr-16 mb-8 rounded-3xl border-2"
       >
         <img src="/ecommerce.svg" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
@@ -140,7 +143,7 @@ export default function Home() {
             </div>
             
     
-      <div className="flex  items-center bg-[#F0FFF7] justify-between  pr-16 mb-8 rounded-3xl border-2">
+      <div className="flex  items-center bg-[#F0FFF7] justify-between  lg:pr-16 mb-8 rounded-3xl border-2">
         <img src="/gym.svg" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
           <h3 className="text-2xl mb-8 font-medium">Website for GYM center</h3>
@@ -159,7 +162,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex  items-center bg-[#FFF4F4] justify-between  pr-16 mb-8 rounded-3xl border-2">
+      <div className="flex  items-center bg-[#FFF4F4] justify-between  lg:pr-16 mb-8 rounded-3xl border-2">
         <img src="/car.svg" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
           <h3 className="text-2xl mb-8 font-medium">Website for Car Rental</h3>

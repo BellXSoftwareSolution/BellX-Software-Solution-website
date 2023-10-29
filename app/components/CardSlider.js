@@ -9,6 +9,7 @@ import FeedbackCard from "./FeedbackCard";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import SwiperCore, {Autoplay} from 'swiper';
+
 export default function CardSlider() {
   // const settings = {
   //   arrows: false,
@@ -198,6 +199,7 @@ export default function CardSlider() {
 // }
 
 export function Testimonials() {
+  SwiperCore.use([Autoplay]);
   const [index, setIndex] = React.useState(0);
   const feedback = [
     {
@@ -234,7 +236,7 @@ export function Testimonials() {
     },
   ];
 
-  SwiperCore.use([Autoplay]);
+  
   return (
     // make small circles for each feedback
     // make the circles clickable
@@ -254,9 +256,14 @@ export function Testimonials() {
     <Swiper
       spaceBetween={50}
       // loop={true}
-      autoplay={{
-        delay: 7000,
+      loop={true}
+      pagination={{
+        clickable: true
       }}
+      autoplay={{
+        delay: 5000,
+      }}
+      autoplayDisableOnInteraction={false}
       slidesPerView={1}
       onSlideChange={() => {setIndex((index+1) % feedback.length)}}
       onSwiper={(swiper) => console.log(swiper)}
