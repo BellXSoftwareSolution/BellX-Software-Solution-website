@@ -47,7 +47,7 @@ export default function Home() {
 
         </div>
         <div className="w-[48%] animate-appearup ">
-        <img src="/image1.svg" className="w-full hidden md:block animate-grow" />
+        <Image width={614} height={516} src="/image1.svg" className="w-full hidden md:block animate-grow" />
           </div>
        
       </div>

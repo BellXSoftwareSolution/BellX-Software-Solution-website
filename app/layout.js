@@ -17,24 +17,24 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8" />
         <title>bellx sofwares</title>
         <meta name="description" content={metadata.description} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="bellx-logo.svg" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </head>
 
       {/* preload all images in . folder */}
-      <link rel="preload" href="./about.svg" as="image" />
-      <link rel="preload" href="./angular-icon.svg" as="image" />
-      <link rel="preload" href="./bellx-iclogoon.svg" as="image" />
-      <link rel="preload" href="./daniel.svg" as="image" />
-      <link rel="preload" href="./developing.svg" as="image" />
-      <link rel="preload" href="./ecommerce.svg" as="image" />
-      <link rel="preload" href="./image1.svg" as="image" />
-      <link rel="preload" href="./image2.svg" as="image" />
-      <link rel="preload" href="./image3.svg" as="image" />
-      <link rel="preload" href="./image4.svg" as="image" />
-      <link rel="preload" href="./kalkidan.svg" as="image" />
+      <link rel="preload" href="about.svg" />
+      <link rel="preload" href="angular-icon.svg" />
+      <link rel="preload" href="bellx-iclogoon.svg" />
+      <link rel="preload" href="daniel.svg" />
+      <link rel="preload" href="developing.svg" />
+      <link rel="preload" href="ecommerce.svg" />
+      <link rel="preload" href="image1.svg" />
+      <link rel="preload" href="image2.svg" />
+      <link rel="preload" href="image3.svg" />
+      <link rel="preload" href="image4.svg" />
+      <link rel="preload" href="kalkidan.svg" />
       
-      <link rel="preload" href="/images/hero.jpg" as="image" />
+      <link rel="preload" href="/images/hero.jpg" />
       <body className={inter.className}>
         <MainHeader />
         {children}
