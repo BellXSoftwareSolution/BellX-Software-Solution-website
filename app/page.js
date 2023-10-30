@@ -1,5 +1,9 @@
+"use client";
+
 import { GoArrowRight } from "react-icons/go";
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { LiaAngleRightSolid } from "react-icons/lia";
+import "swiper/css";
 import CardSlider, {
   ClientSlider,
   Testimonials,
@@ -8,18 +12,25 @@ import Image from "next/image";
 import Technologies from "./components/Technologies";
 import Process from "./components/Process";
 
+
 export default function Home() {
+  
   return (
-    <div className="w-[95%] mx-auto py-16">
+    <div className="w-full mx-auto px-4">
       <div className="flex  justify-between items-center mb-20">
         <div className="w-full md:w-[48%]">
-          <h1 className="text-2xl lg:text-4xl">
+          <div className="w-full animate-appearup">
+          <div>
+
+          </div>
+          <h1 className="text-xl lg:text-4xl flex gap-x-2 lg:block">
             Empowering{" "}
             <span className="font-semibold bg-gradient-to-r from-[#F7666F] to-[#406AFF] bg-clip-text text-transparent">
               Business
             </span>{" "}
             through
           </h1>
+          
           <h1 className="text-3xl font-bold lg:text-5xl mb-8">
             custom{" "}
             <span className="bg-gradient-to-r from-[#DE4396] to-[#0d1c9f] bg-clip-text text-transparent">
@@ -32,15 +43,23 @@ export default function Home() {
             product strategy, through to product engineering, testing and
             continuous scaling.
           </p>
+          </div>
+
+          <div className="w-full py-5 animate-moveleft">
           <a
             href="mailto:bellxsoftwaresolution@gmail.com?subject=Seeking%20partnership"
             target="_blank"
-            className="text-white bg-[#3D63EA] px-7 py-5 rounded-md"
+            className="text-white bg-[#3D63EA] px-7 py-5 rounded-md animate-moveleft w-full"
           >
-            Let's get started!
+            Let&apos;s get started!
           </a>
+          </div>
+
         </div>
-        <img src="/image1.svg" className="w-[48%] hidden md:block" />
+        <div className="w-[48%] animate-appearup ">
+        <img src="/image1.svg" className="w-full hidden md:block animate-grow" />
+          </div>
+       
       </div>
       
       <div id="services" className="flex flex-col my-16 items-center">
@@ -64,7 +83,7 @@ export default function Home() {
             <span className="bg-gradient-to-r from-[#DE4396] to-[#0d1c9f] bg-clip-text text-transparent">
               add development capacity
             </span>{" "}
-            to tech teams. Our value isn't limited to building teams but is
+            to tech teams. Our value isn&apos;t limited to building teams but is
             equally distributed across the project lifecycle. We are a custom
             software development company that guarantees the successful delivery
             of your project.
@@ -73,7 +92,7 @@ export default function Home() {
             See more informations <GoArrowRight className="inline" />
           </a>
         </div>
-        <img src="/about.svg" className="w-2/5 hidden md:block" />
+        <img src="/about.svg" className="w-2/5 hidden md:block"/>
       </div>
 
       {/* <div className="flex flex-col my-16">
@@ -82,7 +101,9 @@ export default function Home() {
         <p className="text-2xl font-semibold">we are working with</p>
       </div>
       <ClientSlider /> */}
-
+      <div className="w-full my-20">
+      
+    </div>
       <div className="flex flex-col items-center my-16">
         <hr className="bg-pink-500 h-1 w-16 my-6" />
         <p className="text-2xl">Why customers love</p>
@@ -98,7 +119,7 @@ export default function Home() {
 
       <div
         id="projects"
-        className="flex  items-center bg-[#F1F2FF] justify-between  pr-16 mb-8 rounded-3xl border-2"
+        className="flex  items-center bg-[#F1F2FF] justify-between  lg:pr-16 mb-8 rounded-3xl border-2"
       >
         <img src="/ecommerce.svg" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
@@ -119,9 +140,10 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </div>
-
-      <div className="flex  items-center bg-[#F0FFF7] justify-between  pr-16 mb-8 rounded-3xl border-2">
+            </div>
+            
+    
+      <div className="flex  items-center bg-[#F0FFF7] justify-between  lg:pr-16 mb-8 rounded-3xl border-2">
         <img src="/gym.svg" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
           <h3 className="text-2xl mb-8 font-medium">Website for GYM center</h3>
@@ -140,7 +162,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex  items-center bg-[#FFF4F4] justify-between  pr-16 mb-8 rounded-3xl border-2">
+      <div className="flex  items-center bg-[#FFF4F4] justify-between  lg:pr-16 mb-8 rounded-3xl border-2">
         <img src="/car.svg" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
           <h3 className="text-2xl mb-8 font-medium">Website for Car Rental</h3>

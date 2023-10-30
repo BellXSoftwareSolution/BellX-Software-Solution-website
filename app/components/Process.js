@@ -12,7 +12,7 @@ const Process = () => {
         </div>
         <p className="text-[#4A5568]">
           We handle all aspects of vetting and choosing the right team that you
-          don't have the time, expertise, or desire to do.
+          don&apos;t have the time, expertise, or desire to do.
         </p>
       </div>
       <div className="bg-white rounded-[9px] border border-gray-300 px-4 py-6 m-4 max-w-sm">
