@@ -23,42 +23,44 @@ const Footer = () => {
 
           {/* Column 2 */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Links</h3>
-            <ul className="text-sm space-y-2">
+            <h3 className="text-lg font-bold mb-4 flex justify-center md:block">Links</h3>
+            <div className="flex justify-center md:block">
+            <ul className="text-sm  grid grid-cols-3 justify-between md:flex md:flex-col md:gap-y-1">
               <li>
-                <a href="/about" className="block hover:text-gray-700">
+                <a href="/about" className=" hover:text-gray-700 hover:underline">
                   About us
                 </a>
               </li>
               <li>
-                <a href="/services" className="block hover:text-gray-700">
+                <a href="/services" className=" hover:text-gray-700 hover:underline">
                   Services
                 </a>
               </li>
               <li>
-                <a href="/project" className="block hover:text-gray-700">
+                <a href="/project" className=" hover:text-gray-700 hover:underline">
                   Project
                 </a>
               </li>
               <li>
-                <a href="/how-it-works" className="block hover:text-gray-700">
+                <a href="/how-it-works" className=" hover:text-gray-700 hover:underline">
                   How it works
                 </a>
               </li>
               <li>
                 <a
                   href="https://medium.com/@bellxsoftwaresolution"
-                  className="block hover:text-gray-700"
+                  className=" hover:text-gray-700 hover:underline"
                 >
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#services" className="block hover:text-gray-700">
+                <a href="#services" className=" hover:text-gray-700 hover:underline">
                   Areas we serve
                 </a>
               </li>
             </ul>
+            </div>
           </div>
 
           {/* Column 3 */}
