@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         {/* Social media icons */}
-        <div className="mt-8 flex justify-end">
+        <div className="mt-8 flex justify-center">
           <div className="bg-slate-200 rounded-full p-2 shadow-lg mx-2">
             <a href="https://www.linkedin.com/company/bellx-software-solution/">
               <FaLinkedinIn size={16} />

@@ -22,8 +22,8 @@ const page = () => {
             E commerce Website for Tech store
           </h3>
           <p className="text-[#898CA9] mb-12">
-            we bring back the joy of shopping by incorporating a classic "add to
-            cart" feature. As you browse through our extensive range of tech
+            we bring back the joy of shopping by incorporating a classic &quot;add to
+            cart&quot; feature. As you browse through our extensive range of tech
             products, you can easily add items to your cart with a single click.
             The cart feature allows you to review and modify your selections
             before proceeding to checkout, just like the traditional way of
@@ -42,7 +42,7 @@ const page = () => {
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
           <h3 className="text-2xl mb-8 font-medium">Website for GYM center</h3>
           <p className="text-[#898CA9] mb-12">
-            As you browse through the website, you'll find detailed information
+            As you browse through the website, you&quot;ll find detailed information
             about the membership options, class schedules, trainer profiles, and
             facility feature
           </p>
