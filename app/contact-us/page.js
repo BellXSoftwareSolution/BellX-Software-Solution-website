@@ -17,7 +17,7 @@ export default function App() {
               Contact Us
             </h1>
             <p className="w-[80%] mx-auto leading-relaxed text-base">
-              Have a question or interested in our services? We're here to help
+              Have a question or interested in our services? We&apos;re here to help
               you turn your ideas into reality
             </p>
           </div>
