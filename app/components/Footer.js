@@ -6,6 +6,8 @@ import {
   FaTelegram,
   FaTwitter,
 } from "react-icons/fa";
+import bellxLogo from '../../public/bellx-logo.svg'
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -14,7 +16,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row gap-8 xl:justify-around">
           {/* Column 1 */}
           <div>
-            <img src="/bellx-logo.svg" alt="Company Logo" className="w-24" />
+            <Image src={bellxLogo} alt="Company Logo" className="w-24" />
             <p className="text-lg mb-3">BellX Software Solutions</p>
             <p className="text-sm">
               Your Agile Tech Partner That Helps You Accelerate Growth

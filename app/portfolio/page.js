@@ -1,5 +1,9 @@
 import React from "react";
 import { LiaAngleRightSolid } from "react-icons/lia";
+import ecommerceImg from '../../public/ecommerce.jpg'
+import gymImg from '../../public/gym.jpg'
+import carImg from '../../public/car.jpg'
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -16,7 +20,7 @@ const page = () => {
         id="projects"
         className="flex  items-center bg-[#F1F2FF] justify-between  lg:pr-16 mb-8 rounded-3xl border-2"
       >
-        <img src="/ecommerce.jpg" className="w-[49%] hidden lg:block" />
+        <Image src={ecommerceImg} alt="ecommerce-site-image" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
           <h3 className="text-2xl mb-8 font-medium">
             E commerce Website for Tech store
@@ -38,7 +42,7 @@ const page = () => {
       </div>
 
       <div className="flex  items-center bg-[#F0FFF7] justify-between  lg:pr-16 mb-8 rounded-3xl border-2">
-        <img src="/gym.jpg" className="w-[49%] hidden lg:block" />
+        <Image src={gymImg} alt="gym-site-image" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
           <h3 className="text-2xl mb-8 font-medium">Website for GYM center</h3>
           <p className="text-[#898CA9] mb-12">
@@ -54,7 +58,7 @@ const page = () => {
         </div>
       </div>
       <div className="flex  items-center bg-[#FFF4F4] justify-between  lg:pr-16 mb-8 rounded-3xl border-2">
-        <img src="/car.jpg" className="w-[49%] hidden lg:block" />
+        <Image src={carImg} alt="car-site-image" className="w-[49%] hidden lg:block" />
         <div className="w-full p-8 lg:p-0 lg:w-[49%]">
           <h3 className="text-2xl mb-8 font-medium">Website for Car Rental</h3>
           <p className="text-[#898CA9] mb-12">

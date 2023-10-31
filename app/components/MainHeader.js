@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import bellxLogo from '../../public/bellx-logo.svg'
 
 export default function MainHeader() {
   const [isOpen, setisOpen] = useState(false);
@@ -12,8 +13,8 @@ export default function MainHeader() {
         <div>
           <div className="flex items-center justify-between py-3 lg:block">
             <a href="/">
-              <img
-                src="/bellx-logo.svg"
+              <Image
+                src={bellxLogo}
                 alt="BellX Logo"
                 className="w-[60px] h-[60px]  sm:w-[100px] sm:h-[100px]"
               />
